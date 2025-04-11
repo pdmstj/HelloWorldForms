@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace HelloWorldForms.Properties
+namespace HelloWorldWindowForm.Properties
 {
 
 
