@@ -26,5 +26,15 @@ namespace HelloWorldWindowForm
         {
             lblTitle.Text = "쾅!";
         }
+
+        private void 끝내기ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void exit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
