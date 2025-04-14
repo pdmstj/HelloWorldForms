@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace HelloWorldWindowForm
 {
-    public partial class Form1: Form
+    public partial class FormMain: Form
     {
-        public Form1()
+        public FormMain()
         {
             InitializeComponent();
         }
@@ -35,6 +35,16 @@ namespace HelloWorldWindowForm
         private void exit_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
